@@ -1,0 +1,239 @@
+ 
+.navbar-nav li {
+  font-size: 20px;
+    margin-left: 28px;
+}
+.navbar-nav{
+   margin-right: 10%;
+}
+ #slider{
+  
+   margin: auto;
+   /* transform: translate(30% , 50%); */
+  
+ }
+
+ #menubar{
+    z-index: 11;
+ }
+#slider img{
+  width: 100% !important;
+  height: 800px !important;
+}
+.info{
+  
+  position: absolute;
+  left: 20%;
+  top: 30%;
+}
+.info h5 {
+  font-size: 38px;
+}
+.toggleBtn{
+  background-color: rgba(255, 255,255,0.7);
+} 
+.sliderDiv{
+  height: 700px !important;
+}
+#orderSection{
+  width: 100%;
+  min-height:120vh;
+}
+ 
+/* ============== Order Section================== */  
+
+   #order-img{
+      animation: swing 3s infinite  ;
+   }
+
+   @keyframes swing {
+      0%{
+        transform: translateY(-10px);
+      }
+      50%{
+        transform: translateY(0px);
+
+      }
+      100%{
+        transform: translateY(-10px);
+      }
+   }
+
+   /* =============Footer================== */
+
+    #footer{
+      /* background-image: url("../image/coffee.jpg") !important;
+      background-size: cover;
+      background-attachment: fixed; */
+        width: 100%;
+        box-shadow: 0px -2px 17px black;
+        min-height: 40vh ;
+    }
+    #footer .imp-link ul li a {
+      color: white;
+    }
+    #footer .local-info a:hover {
+      width: fit-content;
+      border-bottom: 1px solid white;
+    }
+    #footer .social-media a , .icon{
+      color: white;
+      font-size: 36px;
+       
+    }
+    #footer .social-media a i:hover{
+      transition: 120ms;
+      transform:translateY(-5px);
+    }
+
+    /* ==================== order section  */
+
+    #orderPage{
+       min-height: 90vh;
+      /* background-color: brown; */
+    }
+    #orderPage .card{
+      height: 20rem;
+      width: 18rem;
+      padding:0;
+      border: none;
+      border-radius: 8px;
+      margin: 0;
+    }
+    
+    #orderPage .card .card-content{
+      padding: 0;
+      margin: 0;
+    }
+    #orderPage .card .card-content img{
+      padding: 0;
+      width: 100%;
+      height: 20rem;
+      border-radius: 8px;
+    }
+    #orderPage .card .card-content .overlay-content{
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top:  50%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0; 
+        border-radius: 8px;
+        transition: all 500ms ease-in-out;
+      }
+      .btns a {
+        font-size: 18px;
+        color: white;
+      }
+      #orderPage .card .card-content:hover .overlay-content{
+        opacity: 1;
+        top: 50%;
+        /* opacity: 1;
+       */
+      animation: over 500ms 1 ease-in-out;
+    }
+    
+    @keyframes over {
+      0%{
+        opacity: 0;
+        top:100%;
+      }
+      50%{
+        opacity: 0;
+      }  
+      100%{
+        opacity: 1;
+        top: 50%;
+      }
+    }
+
+
+    .page-head{
+      transition: all 500ms ease-in-out;
+      animation: sw 1s 1 ease-in-out;
+    }
+    @keyframes sw {
+      0%{
+        transform: scale(0);
+      }
+      50%{
+        transform: scale(1.1);
+      }
+      80%{
+        transform: scale(0.95);
+      }
+      100%{
+        transform: scale(1);
+      }
+      
+    }
+
+    #orderPage,
+    #contactDiv
+    {
+      animation: lading 800ms 1 ease-in-out;
+    }
+    @keyframes lading {
+      0%{
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      100%{
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* ====================About us ============= */
+
+    #aboutDiv{
+      background-image:url("../image/b3.jpg") ;
+      background-attachment:fixed ;
+      background-repeat:no-repeat ;
+      background-size:cover ;
+      min-height: 90vh;
+   }
+   /* .about-overlay{
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     background: rgba(255, 255, 255, 0.3);
+   } */
+
+   .designation{
+     font-family:Verdana, Geneva, Tahoma, sans-serif ;
+     font-weight: 600;
+   }
+   .card{
+    padding:0;
+    transition: all 300ms ease-in-out;
+  }
+  /*
+  .card-body{
+    position:relative;
+  } */
+  .overlay-card{
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    right:  100%;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    left: 0;
+  }
+ 
+
+   @keyframes bk {
+     0%{
+        right: 100%;
+     }
+     50%{
+       right: 50%;
+     }
+     100%{
+       right: 0;
+     }
+     
+   }

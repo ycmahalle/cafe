@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+                Yc Cafe
+        </title>
+        <link rel="shortcut icon" href="image/logo.ico" type="image/x-icon">
+        <!-- bootstrap css  -->
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+      <script src="https://kit.fontawesome.com/9659c2835d.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="css/custom.css">
+    </head>
+    <body>
+      <!-- padding -->
+      <!-- p -0  5  -->
+          <!-- nav bar -->
+          <nav id="menubar" class="navbar navbar-expand-lg position-sticky top-0 navbar-dark bg-dark">
+            <div class="container-fluid ">
+              <!-- nav logo  -->
+              <a class="navbar-brand  text-lg-center text-sm-start" href="#">
+                   <img src="image/logo.jpg" class="bg-white p-1 rounded-circle " width="15%" alt="Yc">
+              </a>
+
+              <!-- logo end  -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#CafeNav" aria-controls="CafeNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="CafeNav">
+                 <div class="navItems  w-100 d-flex justify-content-lg-end justify-content-sm-start">
+                  <ul class="navbar-nav  mb-2  mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li> 
+                  </ul>
+                 
+                 </div>
+              </div>
+            </div>
+        </nav> 
+       
+              <!-- Sliders  -->
+          <div class="sliderDiv">
+            <div id="slider" class="carousel carousel-dark slide " data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="image/b1.jpg" class="d-block w-100"  alt="...">
+                  <div class="info  h-25 carousel-caption d-none d-md-block text-white" style="">
+                    <h5>Order For Yourself</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                    <a href="index.html#orderSection" class="btn  rounded-pill  exploreBtn btn-success w-25"> Order Now  </a>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="image/b2.jpg" class="d-block w-100" alt="...">
+                  <div class="info carousel-caption d-none d-md-block text-white">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                    <a href="gallery.html" class="btn exploreBtn rounded-pill  btn-success w-25">Explore  </a>
+                  
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="image/b3.jpg" class="d-block w-100" alt="...">
+                  <div class="info  carousel-caption d-none d-md-block text-white">
+                    <h5>Delicious</h5>
+                    <p>Some representative placeholder content for the third slide.ome representative placeholder content for the third slide.ome representative placeholder content for the third slide.</p>
+                    <a href="gallery.html" class="btn exploreBtn rounded-pill  btn-success w-25">Explore  </a>
+                    
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev toggleBtn" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next toggleBtn" type="button" data-bs-target="#slider" data-bs-slide="next">
+                <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Order Section  -->
+          <br><br> <br><br><br><br>
+          <div id="orderSection" class="text-dark   ">
+             <div class="content ">
+               <div class="head d-flex justify-content-center" >
+                 <h1 class="text-center px-3" style="width: fit-content;margin-top: 8%; border-bottom: 0.5px solid #DC3545;"> Order </h1>
+               </div>
+
+               <div class="row shadow-lg mt-5 col-lg-12 bg-danger container" style="margin: auto;">
+                  <div class="fo d-flex justify-content-lg-center align-items-center col-lg-6 col-sm-11 col-xs-11 col-md-6 p-4">
+                      <div class="childContent text-white">
+                        <h2 class=""> Place Your Order</h2>
+                        <h5>Enjoy The Delicious Taste of Amravati... </h5>
+                         <a href="#" class="btn btn-dark rounded-pill px-4 mt-3">Click To order</a>
+  
+                      </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-11 col-xs-11 col-md-6">
+                        <img id="order-img" src="image/cafe.png" width="100%" alt="Order Now">
+                  </div>
+               </div>
+             </div> 
+             
+          </div>
+
+            <!-- Footer  -->
+          <div id="footer" class="bg-dark p-4">
+             <div class="row col-lg-12 text-white" style="height:30vh;">
+              <div class="col-lg-4 col-sm-12 d-flex justify-content-center align-items-center" style="border-right: 2px solid white;">
+                <a class="navbar-brand  text-lg-center text-sm-start" href="#">
+                  <img src="image/logo.jpg" class="bg-white p-1 " width="20%" alt="Yc">
+                </a>
+              </div>
+              <div class="col-lg-4 col-sm-12 imp-link d-flex flex-column  px-4 " style="border-right: 2px solid white;">
+                <ul class="navbar-nav  mb-2  mb-lg-0 " style="list-style-type:square ;">
+                  <div class="imp-head" >
+                    <h5 class="text-uppercase py-3" style="border-bottom: 2px solid yellow;padding-right: 8px; width: fit-content;"> Important Links</h5>
+                  </div>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li> 
+                </ul>
+               
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                    <!-- social media Icons  -->
+                    <div class="get-head px-4" >
+                      <h5 class="text-uppercase py-3" style="border-bottom: 2px solid yellow;padding-right: 8px; width: fit-content;margin:  ;">
+                        Get In Touch With Us &nbsp;&nbsp;&nbsp;
+                      </h5>
+                    </div>
+                    <div class="local-info p-4">
+                      <div class="email" style="font-size:20px ">
+                        <b class="text-warning">Email : </b><a class="text-white text-decoration-none" style="letter-spacing: 1px;" href="mailto:ycdelicious@gmail.com">ycdelicious@gmail.com</a> 
+                      </div> 
+                      <div class="email" style="font-size:20px ">
+                        <b class="text-warning">Location : </b><a class="text-white text-decoration-none" style="letter-spacing: 1px;" href="mailto:ycdelicious@gmail.com">Amravati</a> 
+                      </div>
+                    </div>
+                    
+                    <div class="social-media px-4">
+                        <a class="m-2" href=""><i class="fab fa-facebook-square"></i></a>
+                        <a class="m-2" href=""><i class="fab fa-instagram-square"></i></a>
+                        <a class="m-2" href=""><i class="fab fa-youtube-square"></i></a>
+                        <a class="m-2" href=""><i class="fab fa-whatsapp-square"></i></a>
+                        <a class="m-2" href=""><i class="fab fa-twitter-square"></i></a>
+                    </div>
+              </div>
+             </div>
+          </div>
+            <!-- bootstrap js  -->
+        <script src="js/bootstrap.bundle.min.js"></script>    
+        <script>
+          let x=0;
+console.log(x++);
+        </script>
+    </body>
+
+</html>
+
+
+<!-- parallax effect overlay  -->
